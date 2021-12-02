@@ -144,8 +144,11 @@ body {
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%);
 }
 .promo {
+    display: flex;
+    justify-content: space-between;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin: -25px;
 }
 .card {
     position: relative;
@@ -157,6 +160,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex: 50%;
+    margin: 25px;
 }
 .card:before {
     z-index: -1;
